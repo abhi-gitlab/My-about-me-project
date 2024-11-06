@@ -19,3 +19,18 @@ h1 {
 .my-button {
     background-color: deepskyblue;
 }
+
+
+.photo-columm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+ 
+.photo-columm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    
+}
